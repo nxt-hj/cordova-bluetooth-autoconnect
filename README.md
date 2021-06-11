@@ -50,7 +50,6 @@ class P1 {
                                     this.bluetoothSerial.disconnect().then(() => {
                                         window.bluetoothSerial.connect(device.address);
                                     });
-                                    // this.alarmAudioService.playRawStringAudio('蓝牙连接丢失').subscribe(() => { });
                                 }
                             }
                         );
